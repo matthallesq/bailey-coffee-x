@@ -41,7 +41,7 @@ render={data => (
               data-item-id={product.id}
               data-item-price={product.price}
               data-item-image={product.image.url}
-              data-item-name={product.size}
+              data-item-size={product.size}
               data-item-name={product.name}
               data-item-url={`/`}
             >
@@ -50,6 +50,9 @@ render={data => (
               </div> <div className="Product__details">
                 <div className="Product__name">
                   {product.name}
+                  <div className="Product__size">
+                    ${product.size}
+                  </div>
                   <div className="Product__price">
                     ${product.price}
                   </div>
