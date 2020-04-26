@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'My Shop',
+    siteName: 'Bailey Coffee',
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -14,7 +14,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
+        apiKey: 'MTAwZTI2NDctMTZkYy00MWZkLTg5NWYtM2RhMzgyNTUyMzZiNjM3MjIwNzA4Nzc4OTE5NjIz',
         autopop: true
       }
     },
