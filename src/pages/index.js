@@ -12,6 +12,7 @@ export default () => (
             node {
               id
               name
+              size
               price
               image {
                 url
@@ -48,6 +49,8 @@ render={data => (
               </div> <div className="Product__details">
                 <div className="Product__name">
                   {product.name}
+                  <div className="Product__size">
+                    {product.size}
                   <div className="Product__price">
                     $ {product.price}
                   </div>
