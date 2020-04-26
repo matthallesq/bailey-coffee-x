@@ -12,7 +12,6 @@ export default () => (
             node {
               id
               name
-              size
               price
               image {
                 url
@@ -55,6 +54,7 @@ render={data => (
                   <div className="Product__price">
                     $ {product.price}
                   </div>
+                </div>
                 </div>
                 <span className="Product__buy">Buy now</span>
               </div>
