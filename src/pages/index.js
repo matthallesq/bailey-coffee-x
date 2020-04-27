@@ -52,8 +52,8 @@ render={data => (
               </div> <div className="Product__details">
                 <div className="Product__name">
                   {product.name}
-                  <span className="Product__size">
-                    {product.size}  </span>
+                  <select className="Product__size">
+                    <option={product.size}  </option></select>
                   <span className="Product__price">
                     $ {product.price}
                   </span>
