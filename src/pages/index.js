@@ -44,7 +44,7 @@ render={data => (
               data-item-image={product.image.url}
               data-item-name={product.name}
               data-item-custom1-name="Size"
-              data-item-custom1-options={product.size}
+              data-item-custom1-options="1kg|500g[-15.00]|250g[-25.00]"
               data-item-url={`/`}
             >
               <div className="Product__image">
@@ -52,8 +52,13 @@ render={data => (
               </div> <div className="Product__details">
                 <div className="Product__name">
                   {product.name}
-                  <select className="Product__size">
-                    <option={product.size}  </option></select>
+                  <span className="Product__size">
+                    {product.size}  </span>
+                    <select className="Product__custom1__name">
+                    <option value="1">1kg</option>
+                    <option value="2">500g</option>
+                    <option value="3">250g</option>
+                    </select>
                   <span className="Product__price">
                     $ {product.price}
                   </span>
