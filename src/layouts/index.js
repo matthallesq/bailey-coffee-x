@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-
+import "typeface-Montserrat"
 import '../style/index.scss'
 
 const Layout = ({ children, site }) => (
@@ -19,7 +19,7 @@ const Layout = ({ children, site }) => (
             </h1>
             <div className="Header__summary snipcart-summary snipcart-checkout">
               <div className="Header__summary__title">
-                 MY CART 
+                 MY CART
               </div>
               <div className="Header__summary__line">
                 Number of items: <span className="snipcart-total-items"></span>
