@@ -57,14 +57,14 @@ render={data => (
                 </div>
                 </div>
                 <button
-                                  className="Product__buy Product snipcart-add-item"
-                                  data-item-id={product.id}
-                                  data-item-size={product.size}                      
-                                  data-item-price={product.price}
-                                  data-item-image={product.image.url}
-                                  data-item-name={product.name}
-                                  data-item-url={`https://determined-easley-e806d0.netlify.com/`}
-                                >
+                  className="Product__buy Product snipcart-add-item"
+                  data-item-id={product.id}
+                  data-item-size={product.size}
+                  data-item-price={product.price}
+                  data-item-image={product.image.url}
+                  data-item-name={product.name}
+                  data-item-url={`/`}
+                 >
                                   Add to cart
                                 </button>
               </div>
