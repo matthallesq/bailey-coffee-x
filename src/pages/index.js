@@ -11,6 +11,7 @@ export default () => (
           edges {
             node {
               id
+              size
               name
               price
               image {
