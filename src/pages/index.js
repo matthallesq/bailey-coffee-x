@@ -54,11 +54,6 @@ render={data => (
                   {product.name}
                   <span className="Product__size">
                     {product.size}  </span>
-                    <select className="Product__custom1__name">
-                    <option value="1">1kg</option>
-                    <option value="2">500g</option>
-                    <option value="3">250g</option>
-                    </select>
                   <span className="Product__price">
                     $ {product.price}
                   </span>
