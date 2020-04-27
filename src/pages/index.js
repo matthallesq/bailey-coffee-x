@@ -50,12 +50,12 @@ render={data => (
               </div> <div className="Product__details">
                 <div className="Product__name">
                   {product.name}
-                  <div className="Product__size">
-                    {product.size}
-                  <div className="Product__price">
+                  <span className="Product__size">
+                    {product.size}  </span>
+                  <span className="Product__price">
                     $ {product.price}
-                  </div>
-                </div>
+                  </span>
+
                 </div>
                 <button
                   className="Product__buy Product snipcart-add-item"
