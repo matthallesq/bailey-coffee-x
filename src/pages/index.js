@@ -40,11 +40,12 @@ render={data => (
             <div
               className="Product snipcart-add-item"
               data-item-id={product.id}
+              data-item-size={product.size}
               data-item-price={product.price}
               data-item-image={product.image.url}
               data-item-name={product.name}
               data-item-custom1-name="Size"
-              data-item-custom1-options="1kg|500g[-15.00]|250g[-25.00]"
+              data-item-custom1-options="1kg|500g[+1.00]|250g[+1.00]"
               data-item-url={`/`}
             >
               <div className="Product__image">
